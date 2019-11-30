@@ -545,7 +545,7 @@ public function handle()
     $this->runningAs('listener');
     $this->runningAs('controller');
 
-    // Returns true of any of them is true.
+    // Returns true of any if them is true.
     $this->runningAs('object', 'job');
 }
 ```
